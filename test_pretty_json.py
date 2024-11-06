@@ -1,3 +1,21 @@
+# *****************************************************************************
+# *                                                                           *
+# *   IMPORTANT: DO NOT MODIFY THIS FILE                                      *
+# *                                                                           *
+# *   This testing file is provided to help you check the functionality of    *
+# *   your code and understand the requirements for this assignment.          *
+# *                                                                           *
+# *   Please review the tests carefully to understand what is expected, but   *
+# *   DO NOT make any changes to this file. Modifying this file will          *
+# *   interfere with the grading system, lead to incorrect results, and       *
+# *   will be flagged as cheating.                                            *
+# *                                                                           *
+# *   Focus on writing your own code to meet the requirements outlined in the *
+# *   tests.                                                                  *
+# *                                                                           *
+# *****************************************************************************
+
+
 import io
 import subprocess
 import sys
