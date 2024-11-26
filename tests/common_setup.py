@@ -50,9 +50,9 @@ def pre_test_setup(test_name=None):
 
     test_response_data = None
     if test_name:
-        if test_name == "greeting":
+        if test_name == "adjectives_output":
             test_outputs["adjectives_output"] = logic_adjectives_output()
-        elif test_name == "name":
+        elif test_name == "program_finishes":
             test_outputs["program_finishes"] = logic_program_finishes()
     else:
         test_outputs = {

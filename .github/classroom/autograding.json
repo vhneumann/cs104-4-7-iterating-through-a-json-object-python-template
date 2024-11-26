@@ -1,9 +1,9 @@
 {
     "tests": [
       {
-        "name": "Run tests",
+        "name": "Adjectives Output",
         "setup": "pip install -r requirements.txt",
-        "run": "pytest test_pretty_json.py::TestAdjectivesOutput::test_adjectives_output",
+        "run": "pytest ./tests/adjectives_output.py -p no:warnings",
         "input": "",
         "output": "",
         "comparison": "exact",
@@ -11,9 +11,9 @@
         "points": 10
       },
       {
-        "name": "Code submitted to Git and program Finishes",
+        "name": "The program finishes",
         "setup": "pip install -r requirements.txt",
-        "run": "pytest test_pretty_json.py::TestAdjectivesOutput::test_program_finishes",
+        "run": "pytest ./tests/program_finishes.py -p no:warnings",
         "input": "",
         "output": "",
         "comparison": "exact",
