@@ -14,17 +14,19 @@ from central_setup.central_setup import (
     run_single_test,  # this function is called by the test files that import it from this file: common_setup.py
 )
 
+program_name = 'pretty_json.py'
+
 def run_test(test_name, test_description, error_message):
     run_single_test(test_name, test_description, error_message, pre_test_setup)
 
 # Test functions for JSON iteration
 def logic_adjectives_output():
     """Test if the program correctly extracts and formats adjectives from JSON."""
-    return run_program([])
+    return run_program([], program_name)
 
 def logic_program_finishes():
     """Test if the program completes successfully."""
-    return run_program([])
+    return run_program([], program_name)
 
 def pre_test_setup(test_name=None):
     test_outputs = {}
